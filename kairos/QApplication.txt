@@ -1,0 +1,31 @@
+QApplication
+QMainWindow
+QWidget
+QVBoxLayout
+QHBoxLayout
+QLabel
+QSlider
+
+import
+버튼 만들기
+슬라이더 만들기
+
+MainWindow 클래스 생성, 부모 클래스 'QMainWindow'로 부터 메소드 및 속성
+윈도웅 생성
+컨테이너 만들고
+setCentralWidget
+
+label, 
+slider 만들고
+
+addWidget으로 마무리.
+
+cv2 칼라디텍터 - save, load, bar 사용 
+그레이프레임 문제
+    gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    cv2.imshow("Video",gray_frame)
+
+	위치값을 따서 이전위치랑 달라지면 네모가 뜨게하고 그떄 사진을 찍는다.
+
+roi를 따고 나머지 데이터를 없애거나 극대화하여 detect하는 방식에 threshold가 쓰일 수 있다.
+numpy, cv2 원 생성 차이?

@@ -1,0 +1,56 @@
+특정 칼라를 찾기
+h : low_h , high_h
+s : low_s , high_s
+v : low_v , high_v
+
+low = np.array([low_h, low_s, low_v])
+high= np.array([lhigh_h, high_s, high_v])
+
+
+lower_color, upper_color
+
+np.save("file 이름", 대상)
+
+cv2 컨투어, cv2 모폴로지
+
+contour 경계의 좌표를 저장 (노이즈 포함) -> 범위를 정해서 포함되는 데이터들만 가지고 선을 잇는다?
+
+계층을 정해서?(하이라키)
+최외각 안에 누구
+
+contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL(최외각 몇개 까지?), cv2.CHAIN_APPROX_SIMPLE)
+
+1. HSV만 따기
+2. HSV 적용시키고 라인그리고 중심
+
+faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+#(회색 사진으로, 판별기 크기 (작을 수록 정확도는 높아지지만 계산 량 증,), 얼굴로 인식된거 5개면 얼굴로 인식, 픽셀에서 얼굴이라 생각되는 게 있느데 30*30 정도 아래의 얼굴은 무시할거다.(멀리있는 사람 얼굴) )
+
+
+
+ex[0], ey[0]----------------------------------------------------------- 			초기리스트 뽑
+|
+|
+|
+|
+|-----------------------------------------------------------ex[0]+ex, ex[1]+ey
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

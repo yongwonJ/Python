@@ -1,0 +1,23 @@
+numpy  
+
+PID 제어 세분화
+
+OpenCV 정리
+
+GUI 정리
+
+1k ,4k, 110k, 400k
+builtin 핀? : 아두이노 고장 확인용
+
+pinMode(LED_BUILTIN, OUTPUT);
+깜박거리는 지 확인
+
+void : 리턴 값이 없는 함수
+int reserch(){ int를 리턴 하는 함수다!
+
+}
+각 자료형 별 저장 크기 1,  4, 8 등?
+
+캐멀 -> 두번 째 단어는 대문자 시작 -> 아두이노에서...
+
+DC모터 위치 제어, PID 제어, 도표화, 
